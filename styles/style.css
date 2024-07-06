@@ -117,6 +117,9 @@
     gap: 15px;
     justify-content: center;
     align-items: center;
+    border-radius: 4px;
+    box-shadow: 0 1px 15px 3px rgb(199, 199, 199);
+    padding: 10px 0;
 }
 .card .img-box{
     width: 240px;
@@ -135,6 +138,7 @@
     line-height: 18px;
     letter-spacing: 0%;
     text-align: center;
+    box-shadow: 0 1px 5px 5px rgb(199, 199, 199);
 }
 .font-h1{
     font-family: Work Sans;
@@ -150,4 +154,53 @@
     text-align: center;
     opacity: 0.7;
 
+}
+
+/* about section */
+#about-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.about-img{
+    width: 600px;
+}
+.about-info{
+   width: 600px; 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+   text-align: center;
+}
+.about-data , h1{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+  
+}
+ .about-p{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.contact{
+    margin-top: 20px;
+    font-family: Work Sans;
+}
+hr{
+    border: 1px solid rgb(146, 137, 137);
+    width: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: 0.5;
 }
